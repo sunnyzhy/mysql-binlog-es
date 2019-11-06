@@ -1,5 +1,5 @@
 # mq2elasticsearch项目结构
-![mq2elasticsearch](../images/binlog-2.png "mq2elasticsearch")
+![](images/binlog-2.png)
 
 # 主要代码
 ## 添加maven依赖
