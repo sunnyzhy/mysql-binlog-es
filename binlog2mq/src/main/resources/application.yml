@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: binglog2mq
+server:
+  port: 8085
+
+rocketmq:
+  host: 192.168.0.252:9876
+  tags: '*'
+  producer:
+    group: binlog
+
+binglog:
+  host: 20.0.0.48
+  port: 3306
+  user: root
+  password: root
+  table: test.student,test.course

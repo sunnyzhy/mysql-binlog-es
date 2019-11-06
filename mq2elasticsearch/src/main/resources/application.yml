@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: mq2elasticsearch
+server:
+  port: 8086
+
+rocketmq:
+  host: 192.168.0.252:9876
+  tags: '*'
+  consumer:
+    group: binlog
+    topic:
+      student: test_student
+      course: test_course
+
+elasticsearch:
+  host: 192.168.0.252:9200
+  index:
+    student: test_student
+    course: test_course
+
